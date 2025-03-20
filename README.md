@@ -1,2 +1,4 @@
-# noemail-fcmb.com
-Config files for my GitHub profile.
+dependencies {
+    // ...
+    implementation "com.monnify.android-sdk:monnify-android-sdk:1.1.7"
+}
