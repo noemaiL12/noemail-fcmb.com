@@ -1,0 +1,14 @@
+import 'package:monnify_payment_sdk/monnify_payment_sdk.dart';
+
+class _MyAppState extends State<MyApp> {
+
+  @override
+  void initState() {
+    super.initState();
+    MonnifyPaymentSdk.initialize(
+              'YOUR_API_KEY',
+              'CONTRACTCODE',
+              ApplicationMode.LIVE
+    )
+  }
+}
